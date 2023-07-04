@@ -1,5 +1,5 @@
 # WeatherUpdateCLI Tool
-# This is a command-line Weather Info Tool (Using >net Core) tool that retrieves weather information based on a city name using the Open-Meteo API.
+# This is a command-line Weather Info Tool (Using .net Core) tool that retrieves weather information based on a city name using the Open-Meteo API.
 Prerequisites:
 .NET Core SDK installed on your system.
 Open Metro API: https://api.open-meteo.com/v1/forecast?latitude=18.9667&longitude=72.8333&current_weather=true
