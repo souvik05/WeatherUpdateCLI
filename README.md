@@ -10,13 +10,13 @@ Open Metro API: https://api.open-meteo.com/v1/forecast?latitude=18.9667&longitud
 
 How to set up your project:
 
-open the command prompt and create a new directory for your project:      mkdir WeatherApp 
+open the command prompt and create a new directory for your project:[Use this CMD command]>>      mkdir WeatherApp 
 
-Navigate to the project directory:    cd WeatherApp
+Navigate to the project directory:[Use this CMD command]>>    cd WeatherApp
 
-Initialize a new .NET Core console application:    dotnet new console
+Initialize a new .NET Core console application:[Use this CMD command]>>    dotnet new console
 
-Next, we need to add the Newtonsoft.Json package to handle JSON parsing: dotnet add package Newtonsoft.Json
+Next, we need to add the Newtonsoft.Json package to handle JSON parsing:[Use this CMD command]>>  dotnet add package Newtonsoft.Json
 
 Open your preferred code editor and open Program.cs file.
 
@@ -28,9 +28,9 @@ Copy cities.Json file code from this repository and replace your cities.json fil
 
 Save the project.
 
-Next, open the command prompt and navigate to the project directory then build your project using the following command: dotnet build
+Next, open the command prompt and navigate to the project directory then build your project using the following command:[Use this CMD command]>> dotnet build
 
-Next, run this project in the command prompt: dotnet run
+Next, run this project in the command prompt:[Use this CMD command]>> dotnet run
 
 Enter a city name:
 
@@ -38,11 +38,11 @@ It will show the user input city weather information like temperature and wind s
 
 How to set up a test project to unit test the code:
 
-First, make sure you have the xUnit NuGet package installed. You can install it using the following command in the project directory:   dotnet add package xunit
+First, make sure you have the xUnit NuGet package installed. You can install it using the following command in the project directory:[Use this CMD command]>>   dotnet add package xunit
 
-Create a new directory named "WeatherApp.Tests" in the project directory:    mkdir WeatherApp.Tests
+Create a new directory named "WeatherApp.Tests" in the project directory: [Use this CMD command]>>   mkdir WeatherApp.Tests
 
-Change into the "WeatherApp.Tests" directory: cd WeatherApp.Tests
+Change into the "WeatherApp.Tests" directory:[Use this CMD command]>> cd WeatherApp.Tests
 
 Initialize a new xUnit test project: dotnet new xunit
 
@@ -56,4 +56,4 @@ Copy cities.Json file code from this repository and replace your cities.json fil
 
 Save the project.
 
-Next open the command prompt and navigate to the test project directory then run your project using the following command:    dotnet test
+Next open the command prompt and navigate to the test project directory then run your project using the following command:[Use this CMD command]>>    dotnet test
